@@ -1,0 +1,48 @@
+* {
+    background-color: lightblue;
+}
+header {
+    width: 100%;
+    height: fit-content;
+}
+header h1 {
+    font-size: 100px;
+    font-family: "Lexend";
+    font-weight: 700;
+}
+nav {
+    background-color: sienna;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+nav a {
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    font-family: "Newsreader";
+    font-size: 18px;
+    padding: 5px initial;
+    transition: color 0.2s ease;
+}
+nav a:hover {
+    text-decoration: none;
+    color: lightgreen;
+}
+main h1 {
+    font-family: Lexend;
+    font-weight: 500;
+}
+main h2 {
+    font-family: Lexend;
+    font-weight: 400;
+}
+footer {
+    padding-bottom: 5px;
+}
+footer p {
+    text-align: left;
+    padding-left: 10px;
+}
