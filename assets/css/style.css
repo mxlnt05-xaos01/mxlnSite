@@ -32,17 +32,46 @@ nav a:hover {
     color: lightgreen;
 }
 main h1 {
-    font-family: Lexend;
+    font-family: "Lexend";
     font-weight: 500;
 }
 main h2 {
-    font-family: Lexend;
+    font-family: "Lexend";
     font-weight: 400;
 }
 footer {
+    background-color: darkblue;
+    color: white;
     padding-bottom: 5px;
 }
 footer p {
     text-align: left;
     padding-left: 10px;
+}
+#BannerInline {
+    position: relative;
+    text-align: center;
+    color: aqua;
+}
+#BannerInline img {
+    width: 100%;
+    height: 200px;
+}
+#BannerInline h2 {
+    font-family: "Lexend";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#socialmediablock {
+    text-decoration: none;
+}
+#socialmediablock a {
+    color: black;
+}
+.flexbox {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
 }
