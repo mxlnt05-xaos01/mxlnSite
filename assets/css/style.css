@@ -44,13 +44,9 @@ main h2 {
     font-family: "Lexend";
     font-weight: 400;
 }
-.container img {
+.container {
     width: 200px;
-    height: 300px;
-}
-.container img {
-    width: 100%;
-    height: 100%;
+    height: 250px;
     object-fit: contain;
 }
 iframe {
@@ -93,4 +89,6 @@ footer p {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
 }
