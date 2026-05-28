@@ -6,6 +6,7 @@ header {
     height: fit-content;
 }
 header h1 {
+    display: inline-block;
     font-size: 100px;
     font-family: "Lexend";
     font-weight: 700;
@@ -43,7 +44,7 @@ main h2 {
     font-family: "Lexend";
     font-weight: 400;
 }
-.container img:nth-child{
+.container img {
     width: 200px;
     height: 300px;
 }
@@ -52,14 +53,16 @@ main h2 {
     height: 100%;
     object-fit: contain;
 }
-
+iframe {
+    width: fit-content;
+    height: 100px;
+}
 footer {
     background-color: darkblue;
     color: white;
     padding-bottom: 5px;
 }
 footer p {
-    
     text-align: left;
     font-size: 25px;
     padding-left: 10px;
