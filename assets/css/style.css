@@ -44,13 +44,9 @@ main h2 {
     font-family: "Lexend";
     font-weight: 400;
 }
-.container {
-    width: 200px;
-    height: 250px;
-    object-fit: contain;
-}
 iframe {
-    width: fit-content;
+    display: block;
+    width: 100%;
     height: 100px;
 }
 footer {
@@ -91,4 +87,10 @@ footer p {
     justify-content: center;
     padding-left: 10px;
     padding-right: 10px;
+}
+.flexbox img {
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+    overflow: hidden;
 }
