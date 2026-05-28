@@ -17,15 +17,18 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 5px;
+    gap: 25px;
+    padding-bottom: 5px;
+    padding-top: 5px;
 }
 nav a {
+    background-color: sienna;
     text-decoration: none;
     border: none;
     cursor: pointer;
     font-family: "Newsreader";
     font-size: 18px;
-    padding: 5px initial;
+    padding: 25px initial;
     transition: color 0.2s ease;
 }
 nav a:hover {
@@ -40,13 +43,25 @@ main h2 {
     font-family: "Lexend";
     font-weight: 400;
 }
+.container img:nth-child{
+    width: 200px;
+    height: 300px;
+}
+.container img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
 footer {
     background-color: darkblue;
     color: white;
     padding-bottom: 5px;
 }
 footer p {
+    
     text-align: left;
+    font-size: 25px;
     padding-left: 10px;
 }
 #BannerInline {
