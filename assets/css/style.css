@@ -1,96 +1,123 @@
 * {
     background-color: lightblue;
 }
-header {
-    width: 100%;
-    height: fit-content;
+/* Computers with 1281+ px */
+@media only screen and (width >= 1281px) {
+    noscript {
+        background-color: lightblue;
+        font-family: "Lexend";
+        color: black;
+    }
+    hr {
+        color: azure;
+    }
+    header {
+        width: 100%;
+        height: fit-content;
+    }
+    header h1 {
+        display: inline-block;
+        font-size: 72px;
+        font-family: "Lexend";
+        font-weight: 700;
+        text-align: center;
+    }
+    nav {
+        background-color: sienna;
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 100px;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        border: 2.5px ridge orangered;
+    }
+    nav a {
+        background-color: sienna;
+        color: deepskyblue;
+        text-decoration: none;
+        border: none;
+        cursor: pointer;
+        font-family: "Newsreader";
+        font-size: 18px;
+        padding: 25px initial;
+        transition: color 0.2s ease;
+    }
+    nav a:hover {
+        text-decoration: none;
+        color: lightgreen;
+    }
+    main h1 {
+        font-family: "Lexend";
+        font-weight: 500;
+    }
+    main h2 {
+        font-family: "Lexend";
+        font-weight: 400;
+    }
+    iframe {
+        display: block;
+        width: 100%;
+        height: 500px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    footer {
+        background-color: darkblue;
+        color: white;
+        padding-bottom: 5px;
+    }
+    footer p {
+        display: inline-block;
+        text-align: left;
+        font-size: 25px;
+        padding-left: 10px;
+    }
+    #BannerInline {
+        position: relative;
+        text-align: center;
+        color: aqua;
+    }
+    #BannerInline img {
+        width: 100%;
+        height: 200px;
+    }
+    #BannerInline h2 {
+        font-family: "Lexend";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    #socialmediablock {
+        text-decoration: none;
+    }
+    #socialmediablock a {
+        color: black;
+    }
+    .flexbox {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        padding-left: 10px;
+        padding-right: 10px;
+        gap: 25px;
+    }
+    .flexbox img {
+        width: 400px;
+        height: 400px;
+        object-fit: contain;
+        overflow: hidden;
+    }
 }
-header h1 {
-    display: inline-block;
-    font-size: 100px;
-    font-family: "Lexend";
-    font-weight: 700;
-}
-nav {
-    background-color: sienna;
-    width: 100%;
-    height: fit-content;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 25px;
-    padding-bottom: 5px;
-    padding-top: 5px;
-}
-nav a {
-    background-color: sienna;
-    text-decoration: none;
-    border: none;
-    cursor: pointer;
-    font-family: "Newsreader";
-    font-size: 18px;
-    padding: 25px initial;
-    transition: color 0.2s ease;
-}
-nav a:hover {
-    text-decoration: none;
-    color: lightgreen;
-}
-main h1 {
-    font-family: "Lexend";
-    font-weight: 500;
-}
-main h2 {
-    font-family: "Lexend";
-    font-weight: 400;
-}
-iframe {
-    display: block;
-    width: 100%;
-    height: 100px;
-}
-footer {
-    background-color: darkblue;
-    color: white;
-    padding-bottom: 5px;
-}
-footer p {
-    text-align: left;
-    font-size: 25px;
-    padding-left: 10px;
-}
-#BannerInline {
-    position: relative;
-    text-align: center;
-    color: aqua;
-}
-#BannerInline img {
-    width: 100%;
-    height: 200px;
-}
-#BannerInline h2 {
-    font-family: "Lexend";
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-}
-#socialmediablock {
-    text-decoration: none;
-}
-#socialmediablock a {
-    color: black;
-}
-.flexbox {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-.flexbox img {
-    width: 300px;
-    height: 300px;
-    object-fit: contain;
-    overflow: hidden;
-}
+/* Computers between 1025px & 1280px */
+@media only screen and (1280px <= width <= 1025px) {}
+/* Tablet View */
+@media only screen and (1024px <= width <= 768px) {}
+@media only screen and (1024px <= width <= 768px) and (orientation: landscape) {}
+/* Low Res Tablet and Phone Views */
+@media only screen and (767px <= width <= 481px) {}
+/* Phone View */
+@media only screen and (480px <= width <= 320px) {}
