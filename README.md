@@ -21,4 +21,4 @@
 
 ## CSS Media Queries Reference
 
-<a href="https://gist.github.com/gokulkrishh/242e68d1ee94ad05f488">
+[https://gist.github.com/gokulkrishh/242e68d1ee94ad05f488]
